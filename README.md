@@ -2,7 +2,7 @@
 ## A Python Project by Ian Takaoka
 
 ## Introduction
-This project seeks to demonstrate Python on publicly available data on human spaceflight from 1961 to early 2020, as a final project for Code Kentucky's Data Analysis Course 1. For the interests of simulating a "real-world" research project that I would do in academia, the Jupyter Notebook and the project at large are formatted around the data itself, rather than a laundry list of the below features.  It seeks to use Python's data science capabilities to derive meaning from quantitative data regarding human spaceflight, allowing me to highlight and research particular milestones more interesting than "firsts." 
+This project seeks to demonstrate Python on publicly available data on human spaceflight from 1961 to early 2020, as a final project for Code Kentucky's Data Analysis Course 1. For the interests of simulating a "real-world" research project that I would do in academia, the Jupyter Notebook and the project at large are formatted around the data itself, rather than a laundry list of the below features existing in a vacuum.  It seeks to use Python's data science capabilities to derive meaning from quantitative data regarding human spaceflight, allowing me to highlight and research particular milestones more interesting than "firsts." 
 
 ## Technical Notes and Requirements to Run:
 This Jupyter Notebook was created with VSCode in an Anaconda environment. Those users with Anaconda should already have the relevant packages installed- to download and run this locally, you will need to ensure that your Python environment has access to Pandas, Numpy, and Matplotlib. I have also used local Jupyter Notebook/IPython settings to disable soft warnings regarding chained assignment. 
