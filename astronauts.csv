@@ -1,4 +1,4 @@
-id,number,nationwide_number,name,original_name,sex,year_of_birth,nationality,military_civilian,selection,year_of_selection,mission_number,total_number_of_missions,occupation,year_of_mission,mission_title,ascend_shuttle,in_orbit,descend_shuttle,hours_mission,total_hrs_sum,field21,eva_hrs_mission,total_eva_hrs
+id,number,nationwide_number,name,original_name,sex,year_of_birth,nationality,military_civilian,selection,year_of_selection,mission_number,total_number_of_missions,occupation,year_of_mission,mission_title,ascend_shuttle,in_orbit,descend_shuttle,hours_mission,total_hrs_sum,total_number_of_eva,eva_hrs_mission,total_eva_hrs
 1,1,1,"Gagarin, Yuri",ГАГАРИН Юрий Алексеевич,male,1934,U.S.S.R/Russia,military,TsPK-1,1960,1,1,pilot,1961,Vostok 1,Vostok 1,Vostok 2,Vostok 3,1.77,1.77,0,0,0
 2,2,2,"Titov, Gherman",ТИТОВ Герман Степанович,male,1935,U.S.S.R/Russia,military,TsPK-1,1960,1,1,pilot,1961,Vostok 2,Vostok 2,Vostok 2,Vostok 2,25,25.3,0,0,0
 3,3,1,"Glenn, John H., Jr.","Glenn, John H., Jr.",male,1921,U.S.,military,NASA Astronaut Group 1,1959,1,2,pilot,1962,MA-6,MA-6,MA-6,MA-6,5,218,0,0,0
@@ -410,7 +410,7 @@ id,number,nationwide_number,name,original_name,sex,year_of_birth,nationality,mil
 407,192,114,"Ross, Jerry L.","Ross, Jerry L.",male,1948,U.S.,military,NASA-9,1980,2,7,MSP,1988,STS-27,STS-27,STS-27,STS-27,105,1393,0,0,58.53
 408,192,114,"Ross, Jerry L.","Ross, Jerry L.",male,1948,U.S.,military,NASA-9,1980,3,7,MSP,1991,STS-37,STS-37,STS-37,STS-37,143,1393,2,10.58,58.53
 409,192,114,"Ross, Jerry L.","Ross, Jerry L.",male,1948,U.S.,military,NASA-9,1980,4,7,MSP,1993,STS-55,STS-55,STS-55,STS-55,239,1393,0,0,58.53
-410,192,114,"Ross, Jerry L.","Ross, Jerry L.",male,1948,U.S.,military,NASA-9,1980,5,7,MSP,1995,STS-74,STS-74,STS-74,STS-74,129,1393,1,7.24999999999999,58.53
+410,192,114,"Ross, Jerry L.","Ross, Jerry L.",male,1948,U.S.,military,NASA-9,1980,5,7,MSP,1995,STS-74,STS-74,STS-74,STS-74,129,1393,1,7.25,58.53
 411,192,114,"Ross, Jerry L.","Ross, Jerry L.",male,1948,U.S.,military,NASA-9,1980,6,7,MSP,1998,STS-88,STS-88,STS-88,STS-88,283,1393,2,14.38,58.53
 412,192,114,"Ross, Jerry L.","Ross, Jerry L.",male,1948,U.S.,military,NASA-9,1980,7,7,MSP,2002,STS-110,STS-110,STS-110,STS-110,259,1393,2,14.12,58.53
 413,193,115,"Cleave, Mary L.","Cleave, Mary L.",female,1947,U.S.,civilian,NASA- 9,1980,1,2,MSP,1985,STS-30,STS-30,STS-30,STS-30,97,262,0,0,0
@@ -914,7 +914,7 @@ id,number,nationwide_number,name,original_name,sex,year_of_birth,nationality,mil
 911,369,234,"Chawla, Kalpana","Chawla, Kalpana",female,1962,U.S.,civilian,NASA- 16,1994,2,2,MSP,2003,STS-107,STS-107,STS-107,Exploded,382,758,0,0,0
 912,370,5,"Doi, Takao",土井隆雄,male,1954,Japan,civilian,NASDA-1,1985,1,2,MSP,1997,STS-87,STS-87,STS-87,STS-87,376.5,763.6,2,12.7,12.7
 913,370,5,"Doi, Takao",土井隆雄,male,1954,Japan,civilian,NASDA-1,1985,2,2,MSP,2008,STS-123,STS-123,STS-123,STS-123,378.3,763.6,0,0,12.7
-914,371,1,"Kadenyuk, Leonid",Леонід Костянтинович Каденюк,male,1951,U.S.S.R/Ukraine,civilian,TsPK-6 / GKNII-1 / Ukraine,1976,1,1,pilot,1997,STS87,STS87,STS87,STS87,376,376.57,0,0,0
+914,371,1,"Kadenyuk, Leonid",Леонід Костянтинович Каденюк,male,1951,Ukraine,civilian,TsPK-6 / GKNII-1 / Ukraine,1976,1,1,pilot,1997,STS87,STS87,STS87,STS87,376,376.57,0,0,0
 915,372,235,"Edwards, Joe F., Jr.","Edwards, Joe F., Jr.",male,1958,U.S.,military,NASA- 15,1995,1,1,pilot,1998,STS-89,STS-89,STS-89,STS-89,211,211,0,0,0
 916,373,236,"Reilly, James F.","Reilly, James F.",male,1954,U.S.,civilian,NASA-15,1994,1,3,MSP,1998,STS-89,STS-89,STS-89,STS-89,211,853,0,0,30.72
 917,373,236,"Reilly, James F.","Reilly, James F.",male,1954,U.S.,civilian,NASA-15,1994,2,3,MSP,2001,STS-104,STS-104,STS-104,STS-104,306,853,3,16.48,30.72
@@ -1039,9 +1039,9 @@ id,number,nationwide_number,name,original_name,sex,year_of_birth,nationality,mil
 1036,424,268,"Magnus, Sandra H.","Magnus, Sandra H.",female,1964,U.S.,civilian,NASA- 16,1996,1,3,MSP,2002,STS-112,STS-112,STS-112,STS-112,260,3776,0,0,0
 1037,424,268,"Magnus, Sandra H.","Magnus, Sandra H.",female,1964,U.S.,civilian,NASA- 16,1996,2,3,MSP,2008,18,STS-126,ISS,STS-119,3210,3776,0,0,0
 1038,424,268,"Magnus, Sandra H.","Magnus, Sandra H.",female,1964,U.S.,civilian,NASA- 16,1996,3,3,MSP,2011,STS-135,STS-135,STS-135,STS-135,306,3776,0,0,0
-1039,425,269,"Sellers, Piers J.","Sellers, Piers J.",male,1955,U.K./U.S.,civilian,NASA-16,1996,1,3,MSP,2002,STS-112,STS-112,STS-112,STS-112,259,839,3,19.68,41.17
-1040,425,269,"Sellers, Piers J.","Sellers, Piers J.",male,1955,U.K./U.S.,civilian,NASA-16,1996,2,3,MSP,2006,STS-121,STS-121,STS-121,STS-121,306,839,3,21.48,41.17
-1041,425,269,"Sellers, Piers J.","Sellers, Piers J.",male,1955,U.K./U.S.,civilian,NASA-16,1996,3,3,MSP,2010,STS-132,STS-132,STS-132,STS-132,282.5,839,0,0,41.17
+1039,425,269,"Sellers, Piers J.","Sellers, Piers J.",male,1955,U.K.,civilian,NASA-16,1996,1,3,MSP,2002,STS-112,STS-112,STS-112,STS-112,259,839,3,19.68,41.17
+1040,425,269,"Sellers, Piers J.","Sellers, Piers J.",male,1955,U.K.,civilian,NASA-16,1996,2,3,MSP,2006,STS-121,STS-121,STS-121,STS-121,306,839,3,21.48,41.17
+1041,425,269,"Sellers, Piers J.","Sellers, Piers J.",male,1955,U.K.,civilian,NASA-16,1996,3,3,MSP,2010,STS-132,STS-132,STS-132,STS-132,282.5,839,0,0,41.17
 1042,426,98,"Yurchikhin, Fyodor",Фёдор Николаевич Юрчихин,male,1959,U.S.S.R/Russia,civilian,RKKE-14,1997,1,5,MSP,2002,STS­112,STS­112,STS­112,STS­112,259,16147,0,0,59.43
 1043,426,98,"Yurchikhin, Fyodor",Фёдор Николаевич Юрчихин,male,1959,U.S.S.R/Russia,civilian,RKKE-14,1997,2,5,flight engineer,2007,15,Soyuz TMA­10,ISS,Soyuz TMA­10,4721,16147,3,18.73,59.43
 1044,426,98,"Yurchikhin, Fyodor",Фёдор Николаевич Юрчихин,male,1959,U.S.S.R/Russia,civilian,RKKE-14,1997,3,5,commander,2010,24,Soyuz TMA­19,ISS,Soyuz TMA­19,3919,16147,2,13.17,59.43
@@ -1086,8 +1086,8 @@ id,number,nationwide_number,name,original_name,sex,year_of_birth,nationality,mil
 1083,448,282,"Stefanyshyn-Piper, Heidemarie M.","Stefanyshyn-Piper, Heidemarie M.",female,1963,U.S.,military,1963 NASA group 2,1996,2,2,MSP,2008,STS-126,STS-126,STS-126,STS-126,360,648,3,20.57,33.7
 1084,449,283,"Ansari, Anousheh",انوشه انصاری,female,1966,U.S.,civilian,N/A,2006,1,1,Other (space tourist),2006,Soyuz TMA-9,Soyuz TMA-9,Soyuz TMA-9,Soyuz TMA-8,261.525,261.525,0,0,0
 1085,450,284,"Oefelein, William A.","Oefelein, William A.",male,1965,U.S.,military,NASA-17,1998,1,1,pilot,2006,STS-116,STS-116,STS-116,STS-116,308,308,0,0,0
-1086,451,285,"Patrick, Nicholas J. M.","Patrick, Nicholas J. M.",male,1964,U.K./U.S.,civilian,NASA-17,1998,1,2,MSP,2006,STS-116,STS-116,STS-116,STS-116,308,638,0,0,18.23
-1087,451,285,"Patrick, Nicholas J. M.","Patrick, Nicholas J. M.",male,1964,U.K./U.S.,civilian,NASA-17,1998,2,2,MSP,2010,STS-130,STS-130,STS-130,STS-130,330,638,3,18.23,18.23
+1086,451,285,"Patrick, Nicholas J. M.","Patrick, Nicholas J. M.",male,1964,U.K.,civilian,NASA-17,1998,1,2,MSP,2006,STS-116,STS-116,STS-116,STS-116,308,638,0,0,18.23
+1087,451,285,"Patrick, Nicholas J. M.","Patrick, Nicholas J. M.",male,1964,U.K.,civilian,NASA-17,1998,2,2,MSP,2010,STS-130,STS-130,STS-130,STS-130,330,638,3,18.23,18.23
 1088,452,1,Christer Fuglesang,Christer Fuglesang,male,1957,Sweden,civilian,1992 ESA Group,1992,1,2,MSP,2006,STS-116,STS-116,STS-116,STS-116,308.73,641.63,3,18.23,31.9
 1089,452,1,Christer Fuglesang,Christer Fuglesang,male,1957,Sweden,civilian,1992 ESA Group,1992,2,2,MSP,2009,STS-128,STS-128,STS-128,STS-128,332.9,641.63,2,13.67,31.9
 1090,453,286,"Higginbotham, Joan E.","Higginbotham, Joan E.",female,1964,U.S.,civilian,NASA- 16,1996,1,1,MSP,2006,STS-116,STS-116,STS-116,STS-116,308,308,0,0,0
@@ -1156,7 +1156,7 @@ id,number,nationwide_number,name,original_name,sex,year_of_birth,nationality,mil
 1153,485,6,"Jing, Haipeng",景海鹏,male,1966,China,military,China-1,2008,1,3,flight engineer,2008,Shenzhou 7,Shenzhou 7,Shenzhou 7,Shenzhou 7,68,1146,0,0,0
 1154,485,6,"Jing, Haipeng",景海鹏,male,1966,China,military,China-1,2008,2,3,commander,2012,Shenzhou 9,Shenzhou 9,Shenzhou 9,Shenzhou 9,303.5,1146,0,0,0
 1155,485,6,"Jing, Haipeng",景海鹏,male,1966,China,military,China-1,2008,3,3,commander,2016,Shenzhou 11,Shenzhou 11,Shenzhou 11,Shenzhou 11,774.5,1146,0,0,0
-1156,486,309,"Garriott, Richard Allen","Garriott, Richard Allen",male,1961,U.K./U.S.,civilian,N/A,2007,1,1,Space tourist,2008,Soyuz TMA-13,Soyuz TMA-13,Soyuz TMA-13,Soyuz TMA-12,284.89,284.89,0,0,0
+1156,486,309,"Garriott, Richard Allen","Garriott, Richard Allen",male,1961,U.K.,civilian,N/A,2007,1,1,Space tourist,2008,Soyuz TMA-13,Soyuz TMA-13,Soyuz TMA-13,Soyuz TMA-12,284.89,284.89,0,0,0
 1157,487,310,"Boe, Eric A.","Boe, Eric A.",male,1964,U.S.,military,NASA- 18,2000,1,2,pilot,2008,STS-126,STS-126,STS-126,STS-126,380,687,0,0,0
 1158,487,310,"Boe, Eric A.","Boe, Eric A.",male,1964,U.S.,military,NASA- 18,2000,2,2,pilot,2011,STS-133,STS-133,STS-133,STS-133,307,687,0,0,0
 1159,488,311,"Bowen, Stephen G.","Bowen, Stephen G.",male,1964,U.S.,military,NASA- 18,2000,1,3,MSP,2008,STS-126,STS-126,STS-126,STS-126,380,970,3,19.85,47.3
